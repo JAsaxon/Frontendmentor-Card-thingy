@@ -45,6 +45,11 @@ $green: hsl(75, 94%, 57%);
       padding: 1em;
       text-align: center;
       background-color: 1;
+      transition: 500ms;
+    }
+    a:hover, a:focus{
+      color: $black-1;
+      background-color: $green;
     }
     img{
       margin: 0 auto;
